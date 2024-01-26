@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "NodeNext", // control which module type to generate (CommonJS or ES Modules)
+    "moduleResolution": "NodeNext", // controls the import paths
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": false
+  },
+  "include": ["lib/kreload.ts"],
+  "exclude": ["node_modules"]
+}
